@@ -6,6 +6,8 @@ I did this as a proof of concept for me since I have been working with Durandal,
 environment in the Windows world.  This is a fully working Single Page Application with Django Rest backend.  Its
 by no means complete and does have some errors. I just tried to get it out to you without taking too much time on it.
 
+The main Tic-Tac-Toe files are in the django_durandal/app/tictactoe directory.  The rest of the files are supporting
+files for durandal, knockout, and bootstrap.
 
 1) Create a virtualenv (if needed) for project
 2) Unzip project into a seperate directory

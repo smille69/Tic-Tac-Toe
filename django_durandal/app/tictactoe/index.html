@@ -3,8 +3,6 @@
     <br /><br />
     <br /><br />
 
-    <h2 class="bold" data-bind="text: title"></h2>
-
     <div class="form-horizontal span10 well">
         <div class="container-fluid">
             <fieldset>
@@ -13,26 +11,26 @@
             <br /><br />
             <table style="border:1px solid black;" cellspacing="1" cellpadding="1" width="150">
             <tr>
-                <td style="border:1px solid black;" width="50px" height="50px" data-bind="click: set7"><label data-bind="text: lbl7"></label></td>
-                <td style="border:1px solid black;" width="50px" height="50px" data-bind="click: set8"><label data-bind="text: lbl8"></label></td>
-                <td style="border:1px solid black;" width="50px" height="50px" data-bind="click: set9"><label data-bind="text: lbl9"></label></td>
+                <td data-bind="click: set7"><label data-bind="text: lbl7"></label></td>
+                <td data-bind="click: set8"><label data-bind="text: lbl8"></label></td>
+                <td data-bind="click: set9"><label data-bind="text: lbl9"></label></td>
             </tr>
             <tr>
-                <td style="border:1px solid black;" width="50px" height="50px" data-bind="click: set4"><label data-bind="text: lbl4"></label></td>
-                <td style="border:1px solid black;" width="50px" height="50px" data-bind="click: set5"><label data-bind="text: lbl5"></label></td>
-                <td style="border:1px solid black;" width="50px" height="50px" data-bind="click: set6"><label data-bind="text: lbl6"></label></td>
+                <td data-bind="click: set4"><label data-bind="text: lbl4"></label></td>
+                <td data-bind="click: set5"><label data-bind="text: lbl5"></label></td>
+                <td data-bind="click: set6"><label data-bind="text: lbl6"></label></td>
             </tr>
             <tr>
-                <td style="border:1px solid black;" width="50px" height="50px" data-bind="click: set1"><label data-bind="text: lbl1"></label></td>
-                <td style="border:1px solid black;" width="50px" height="50px" data-bind="click: set2"><label data-bind="text: lbl2"></label></td>
-                <td style="border:1px solid black;" width="50px" height="50px" data-bind="click: set3"><label data-bind="text: lbl3"></label></td>
+                <td data-bind="click: set1"><label data-bind="text: lbl1"></label></td>
+                <td data-bind="click: set2"><label data-bind="text: lbl2"></label></td>
+                <td data-bind="click: set3"><label data-bind="text: lbl3"></label></td>
             </tr>
             </table>
             <br /><br />
             <!--Moves: <label data-bind="text: moves"></label><br />
             X Score: <label data-bind="text: xscore"></label><br />
             O Score: <lable data-bind="text: oscore"></label>-->
-            <button type="submit" class="btn" data-bind="click: startNewGame">Reset Game</button>
+            <button type="submit" class="btn btn-success" data-bind="click: startNewGame">Reset Game</button>
         </div>
 
     </div>
