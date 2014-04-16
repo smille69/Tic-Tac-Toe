@@ -1,0 +1,31 @@
+<section>
+    <br /><br />
+    <br /><br />
+    <br /><br />
+
+    <h2 class="bold" data-bind="text: title"></h2>
+
+    <div class="form-horizontal span10 well">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <label class="control-label" data-bind="text: test"></label>
+                <br /><br />
+                <div data-bind="foreach: snippets()">
+                    <div data-bind="text: title"></div>&nbsp;(<div data-bind="text: code"></div>)<br />
+                </div>
+                <button type="submit" class="btn btn-medium btn-success" data-bind="click: doSomething">Click Me</button>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div data-bind="text: id"></div><br />
+                <div data-bind="text: code"></div>
+                <div data-bind="text: language"></div>
+                <div data-bind="text: linenow"></div>
+                <div data-bind="text: style"></div>
+            </div>
+        </div>
+    </div>
+
+</section>
